@@ -55,8 +55,8 @@ class Config(object):
     netd_path = '/home/wl-sp/Downloads/GAN_defect/workdirs/0427-1ge02/d_ckpt_e2000.pth'
     netg_path = '/home/wl-sp/Downloads/GAN_defect/workdirs/0427-1ge02/g_ckpt_e2000.pth'
 
-    mean = (0.5, 0.5, 0.5)
-    std = (0.5, 0.5, 0.5)
+    mean = [0.5]
+    std = [0.5]
 
     checkpoint_interval = 100
 
